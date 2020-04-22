@@ -1,2 +1,2 @@
 # UOSchoolWork
-All school work associated with UO
+All school work associated with UofO
