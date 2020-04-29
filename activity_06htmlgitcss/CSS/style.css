@@ -1,24 +1,42 @@
 body {
+    background-color:cyan;
+    font:#333333;
     margin: 0;
     padding: 0;
   }
 header {
-    background-color:#333333;
+    background-color:hotpink;
+    padding-bottom:3%;
+    padding-top:2%;
 }
 h1 {
-    color:#eee;
+    color:white;
+    font-size:40px;
+    text-align:center;
+    background-color:hotpink;
+}
+#position {
     font-size:28px;
+    width:1024px;
+    padding-left:9%;
+    margin:0 auto;
+}
+#position2 {
+    padding-left:5%;
 }
 #space {
-    float:center;
     color:grey;
+    position:float;
+    padding-right:20%;
 }
 .container {
     margin: 0 auto;
+    
 }
 #mainbio {
     float:left;
     width:70%;
+    padding-top:5%;
 }
 #bioimage {
     float:left;
@@ -28,7 +46,19 @@ h1 {
 #contactinfo {
     float:left;
     width:30%;
+    padding-top:4%;
 }
 a {
     color:#d21034;
 }
+#triangle {
+    width:100px;
+    height:100px;
+    transform: rotate(45deg);
+    background-color:hotpink;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    grid-column:1 / 5;
+  }
