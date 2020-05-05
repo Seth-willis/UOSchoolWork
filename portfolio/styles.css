@@ -1,3 +1,23 @@
 .fixedtop{
     position:fixed;
 }
+#img1 {
+    max-width:65%;
+    height:auto;
+}
+#jumbobio {
+    inset-inline:1.2em;
+}
+#about-me{
+    color:white;
+}
+#navbartext{
+    color:white;
+}
+#bio1{
+    padding-left:2em;
+}
+
+#bio2{
+    padding-left:2em;
+}
