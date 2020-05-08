@@ -46,5 +46,13 @@ body {
 }
 #biotext{
     padding-top:2.5em;
+    padding-right:2.5em; 
+}
+#footertext{
+    text-align:center;
+    color:white;
+}
+#backgroundfooter{
+    background-color:#212529;
     
 }
