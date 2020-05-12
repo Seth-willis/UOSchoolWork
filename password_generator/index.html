@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Generate A Password Here</h1>
+        </div>
+      </div>
+    <div class="wrapper">
+      <header>
+        <h1>Password Generator</h1>
+      </header>
+      <div class="card">
+        <div class="card-header">
+          <h2>Generate a Password</h2>
+          <h3>User Parameter</h3>
+          <div class="slidecontainer">
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            <div class="container">
+                <div class="col-md-auto">
+                Password Length
+                </div>
+            </div>
+           
+          </div>
+          <ul>
+            <div class="container">
+                <div class="row justify-content-md-center">
+                  <div class="col-md-auto">
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                  </div>
+                  <div class="col-md-auto">
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                  </div>
+                  <div class="col-md-auto">
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                  </div>
+                </div>
+        </ul>
+        </div>
+        <div class="card-body">
+          <textarea
+            readonly
+            id="password"
+            placeholder="Your Secure Password"
+            aria-label="Generated Password"
+          ></textarea>
+        </div>
+        <div class="card-footer">
+          <button id="generate" class="btn">Generate Password</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
