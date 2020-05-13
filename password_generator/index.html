@@ -23,7 +23,8 @@
           <h3>User Parameter</h3>
           <div class="slidecontainer">
             <div id="position1">
-            <input type="range" min="1" max="100" value="50" class="slider">
+            <input type="range" min="1" max="50" value="20" class="slider" id="slider"> 
+            <div id="passwordlengthvalue"></div>
             </div>
             <div class="container">
                 <div class="col-md-auto">
@@ -32,21 +33,24 @@
             </div>
            
           </div>
-          <ul>
+          
             <div class="container">
                 <div class="row justify-content-md-center">
                   <div class="col-md-auto">
-                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                    <input type="checkbox" id="lowercase" name="vehicle2" value="Car" checked>Lower Case
                   </div>
                   <div class="col-md-auto">
-                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                    <input type="checkbox" id="uppercase" name="vehicle2" value="Car" checked>Upper Case
                   </div>
                   <div class="col-md-auto">
-                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                    <input type="checkbox" id="numbervar" name="vehicle2" value="Car" checked>Numbers 
+                  </div>
+                  <div class="col-md-auto">
+                    <input type="checkbox" id="symbolvar" name="vehicle2" value="Car" checked>Symbols 
                   </div>
                 </div>
-        </ul>
-        </div>
+        
+             </div>
         <div class="card-body">
           <textarea
             readonly
