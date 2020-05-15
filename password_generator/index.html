@@ -9,17 +9,17 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid" id="jumbostyle">
         <div class="container">
           <h1 class="display-4">Generate A Password Here</h1>
         </div>
       </div>
     <div class="wrapper">
       <header>
-        <h1>Apply Settings Below</h1>
+        <h1 id="title">Apply Settings Below</h1>
       </header>
-      <div class="card">
-        <div class="card-header">
+      <div class="card" id="jumbostyle">
+        
           <h3>User Parameter</h3>
           <div class="slidecontainer">
             <div id="position1">
@@ -51,18 +51,18 @@
                 </div>
         
              </div>
-        <div class="card-body">
+        
           <textarea
             readonly
             id="password"
             placeholder="Your Secure Password"
             aria-label="Generated Password"
           ></textarea>
-        </div>
-        <div class="card-footer">
+        
+        
           <button id="generate" class="btn">Generate Password</button>
-        </div>
-      </div>
+        
+      
     </div>
     <script src="script.js"></script>
   </body>
