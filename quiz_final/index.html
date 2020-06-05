@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <title>Code Quiz</title>
+    <body id="background">  
+        <div id="jumbobackground"class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h1 id="jumbotext"class="text-center">Code Quiz</h1>
+            <p class="text-center">Press the start button above to play!</p>
+          </div>
+          <div id="start_screen" class="d-flex justify-content-center">
+            <div id="start_button" class="btn btn-dark">:: Start Button ::</div>
+          </div>
+        </div>
+
+        <div id="quiz" display=".inline-block">
+          There are <span id='time_remaining'></span> seconds remaining
+          <div id="quiz_status">...</div>
+          <div id="problem">
+            <div id="statement">....</div>
+            <select id="choices">....</select>
+            <div id="ok_button" class="btn btn-dark">:: Next ::</div>
+          </div>
+        </div>
+        <div id="game_over" display=".inline-block">
+          <div display=".inline-block" id="scores"><ul id="scores">...</ul></div>
+          <div id='reset_button' class="btn btn-dark" display=".inline-block">:: Reset ::</div>
+        </div>
+      <div id="question"></div>  
+      </body>
+      <script src="script.js"></script>
+</html>
